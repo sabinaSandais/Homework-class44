@@ -1,4 +1,5 @@
 'use strict';
+
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-JavaScript/Week3#exercise-6-total-cost-is
 
@@ -30,12 +31,11 @@ const cartForParty = {
 
 function calculateTotalPrice(cart) {
   let totalPrice = 0;
-  for (const item in cart) {
+  for (let item in cart) {
     totalPrice += cart[item];
   }
   return 'Total: €' + totalPrice.toFixed(2);
 }
-
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
