@@ -1,5 +1,4 @@
 'use strict';
-
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-JavaScript/Week4#exercise-4-observable
 
@@ -18,10 +17,10 @@ function createObservable() {
   const subscribers = [];
   return {
     subscribe: function (subscriber) {
-      subscribers.push(subscriber);
+      // TODO complete this function
     },
     notify: function (message) {
-      subscribers.forEach((subscriber) => subscriber(message));
+      // TODO complete this function
     },
   };
 }
