@@ -4,7 +4,7 @@ button {
   font-size: 18px;
   font-weight: bold;
   color: black;
-  background-color: yellow;
+  background-color: rgb(220, 101, 166);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -12,7 +12,7 @@ button {
 }
 
 button:hover {
-  background-color: orange;
+  background-color: rgb(0, 255, 68);
 }
 
 /* Styling for the select element */
@@ -20,7 +20,7 @@ select {
   padding: 10px 20px;
   font-size: 16px;
   border: 2px solid #ccc;
-  background-color: orangered;
+  background-color: rgb(0, 255, 8);
   border-radius: 4px;
 }
 
